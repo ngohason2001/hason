@@ -1,0 +1,18 @@
+.body{
+    background-color: black;
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    padding: 10px;
+}
+.sanpham{
+    color: green;
+}
