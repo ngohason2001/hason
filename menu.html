@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Menu</title>
+    <link rel="stylesheet" href="../Css/menu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="data:image/png;base64,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" alt="">
+
+            </div>
+            <ul class="menu-cap-1">
+                <li class="option ">
+                    <a href="#" class="link">Đàn ông</a>
+
+                </li>
+                <li class="option">
+                    <a href="#" class="link">Phụ nữ</a>
+
+                </li>
+                <li class="option active">
+                    <a href="#" class="link"> Cầu thủ</a>
+                    <div class="menu-cap-2">
+                        <ul class="list-option-2">
+                            <li class="option" >
+                                <a href="#" class="link">Tiền đạo</a>
+                                <div class="menu-cap-3">
+                                    <ul class="list-option-3">
+                                        <li class="option">
+                                            <a href="#" class="link">Nicolas Jackson</a>
+                                            <div class="menu-cap-4">
+                                                <ul class="list-option-4">
+                                                    <li class="option">
+                                                        <a href="#" class="link">Cánh Phải</a>
+            
+                                                    </li>
+                                                    <li class="option">
+                                                        <a href="#" class="link">Cánh Trái</a>
+            
+                                                    </li>
+            
+            
+                                                </ul>
+            
+                                            </div>
+
+                                        </li>
+                                        <li class="option">
+                                            <a href="#" class="link">Drogba</a>
+
+                                        </li>
+
+
+                                    </ul>
+
+                                </div>
+
+                            </li>
+                            <li class="option" >
+                                <a href="#" class="link">Tiền vệ</a>
+                                <div class="menu-cap-3">
+                                    <ul class="list-option-3">
+                                        <li class="option">
+                                            <a href="#" class="link">Ballack</a>
+
+                                        </li>
+                                        <li class="option">
+                                            <a href="#" class="link">Lampard</a>
+
+                                        </li>
+
+
+                                    </ul>
+
+                                </div>
+
+                            </li>
+                            <li class="option" >
+                                <a href="#" class="link">Hậu vệ</a>
+                                <div class="menu-cap-3">
+                                    <ul class="list-option-3">
+                                        <li class="option">
+                                            <a href="#" class="link">Thiago Silva</a>
+
+                                        </li>
+                                        <li class="option">
+                                            <a href="#" class="link">Rudiger</a>
+
+                                        </li>
+
+
+                                    </ul>
+
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="option">
+                    <a href="#" class="link">Trẻ em</a>
+
+                </li>
+                <li></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-content">
+        <div class="note">
+            <img  src="https://www.chelseamegastore.com/content/ws/all/a7493e15-2506-4d72-8eee-0a184bed89e0__1600X60.png" alt="">
+
+        </div>
+        <div class="banner">
+            <img  src="https://www.chelseamegastore.com/content/ws/all/523d1b9d-d2aa-4f2f-a149-e72c637e07d5__1600X612.png" alt="">
+
+        </div>
+
+        <div class="list-card">
+            <div class="card" style="width: 250px">
+                <div class="card-img">
+                    <img style="width:100%" src="https://www.chelseamegastore.com/content/ws/all/ff36baf5-93f0-48e7-b951-5af54545d6f0__267X323.png" alt="">
+
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3 style="text-align: center;">Ben Chilwell</h3>
+
+                    </div>
+                    <div class="card-price">
+                        <p style="text-align: center;">8000$</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="card" style="width: 250px">
+                <div class="card-img">
+                    <img style="width:100%" src="https://www.chelseamegastore.com/content/ws/all/f88cbbbf-c746-40e6-a3ca-181b886da940__267X323.png" alt="">
+
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3 style="text-align: center;">R.Jame</h3>
+                        <div class="sale-off">
+                         <span class="sale-off-label">Giảm </span>
+                         <span class="sale-off-percent">20%</span>
+                        </div>
+                       
+
+                    </div>
+                    <div class="card-price">
+                        <p style="text-align: center;">16000$</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="card" style="width: 250px">
+                <div class="card-img">
+                    <img style="width:100%" src="https://www.chelseamegastore.com/content/ws/all/3804473f-f84d-44f3-9029-24c194d8ea20__267X323.png" alt="">
+
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3 style="text-align: center;">Thiago Silva</h3>
+
+                    </div>
+                    <div class="card-price">
+                        <p style="text-align: center;">10000$</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="card" style="width: 250px">
+                <div class="card-img">
+                    <img style="width:100%" src="https://www.chelseamegastore.com/content/ws/all/cb27ae9d-050c-482a-89b2-3b1a89b6dccb__267X323.png" alt="">
+
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3 style="text-align: center;">Enzo</h3>
+
+                    </div>
+                    <div class="card-price">
+                        <p style="text-align: center;">15000$</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            
+
+
+
+
+        </div>
+        <div>
+            <h3 style="text-align: center;">Official Blues Merchandise At The Chelsea Megastore</h3>
+        </div>
+        <div>
+            <p>The Chelsea Megastore is the official online location for all your Blues merchandise. From authentic Chelsea FC kits to crested souvenirs direct from Stamford Bridge, this is a true fan’s first stop for officially branded gear. Serving fans around the world, the one and only Chelsea FC official online store now ships globally; so wherever you go, you’re never too far from your favourite club.
+
+                Get your hands on the complete Chelsea FC 2023/24 Home kits and Chelsea Trainingwear along with personalised Chelsea kits designed to include your own name or the names and numbers of legendary Chelsea players such as Thiago Silva, or Blues heroes like Enzo Fernandez and Reece James. Showcase your support with official Nike training gear and streetwear fashion. And kit out your home with branded Chelsea FC souvenirs and gifts, available exclusively from the official online store of Chelsea FC .
+                
+                To create the ultimate experience for every Chelsea fan, our experienced and knowledgeable customer service team is always on hand, offering the very best service for the most dedicated supporters. Our quick and simple pop out user interface also allows you to view best-selling products and equipment, refine your search and zoom in for a closer look at all our products. Find everything you’re looking for with clarity and security, all as part of the online Chelsea Megastore experience.</p>
+        </div>
+        
+        
+
+
+    </section>
+
+
+    
+</body>
+</html>
